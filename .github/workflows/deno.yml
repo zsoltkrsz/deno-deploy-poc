@@ -37,7 +37,6 @@ jobs:
         with:
           project: deno-deploy-poc # the name of the project on Deno Deploy
           entrypoint: https://deno.land/std/http/file_server.ts
-          root: dist
 
       # Uncomment this step to verify the use of 'deno fmt' on each commit.
       # - name: Verify formatting
