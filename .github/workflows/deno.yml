@@ -35,7 +35,7 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: deno-deploy-poc # the name of the project on Deno Deploy
+          project: zsoltk-deno-deploy-17 # the name of the project on Deno Deploy
           entrypoint: https://deno.land/std/http/file_server.ts
 
       # Uncomment this step to verify the use of 'deno fmt' on each commit.
